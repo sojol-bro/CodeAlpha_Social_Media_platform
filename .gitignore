@@ -1,0 +1,23 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+__pycache__/
+
+# IDE
+.vscode/
+.idea/

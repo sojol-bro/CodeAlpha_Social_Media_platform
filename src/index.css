@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #7BD1FA;
+  --color-brand-hover: #62c7f8;
+  --color-brand-dark: #0369a1;
+  --color-brand-surface: #f0f9ff;
+  --color-brand-border: #bae6fd;
+
+  --color-indigo-50: #f0f9ff;
+  --color-indigo-100: #e0f2fe;
+  --color-indigo-200: #bae6fd;
+  --color-indigo-500: #7BD1FA;
+  --color-indigo-600: #7BD1FA;
+  --color-indigo-700: #48b8ee;
+  --color-indigo-800: #0284c7;
+  --color-indigo-900: #075985;
+  --color-purple-600: #7BD1FA;
+}
+
+/* Brand specific utilities for accessible contrast with #7BD1FA */
+.btn-brand-primary {
+  background-color: #7BD1FA;
+  color: #0b1c30;
+  font-weight: 600;
+}
+.btn-brand-primary:hover {
+  background-color: #62c7f8;
+}
+
+.text-brand-accent {
+  color: #0284c7;
+}

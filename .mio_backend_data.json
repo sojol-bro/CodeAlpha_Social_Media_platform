@@ -1,0 +1,557 @@
+{
+  "profiles": {
+    "elena": {
+      "id": "00000000-0000-0000-0000-000000000001",
+      "username": "sarikasabah24",
+      "full_name": "boss",
+      "headline": "Network Member",
+      "bio": "",
+      "avatar_url": "https://lopljazpsnykyfhdjowt.supabase.co/storage/v1/object/public/DP/avatars/dp_1791637203654_mlp7sp.jpg",
+      "location": "",
+      "industry": "Artificial Intelligence",
+      "interests": [
+        "Distributed Systems",
+        "Machine Learning",
+        "AI Infrastructure",
+        "Web Development"
+      ],
+      "website": "",
+      "followers_count": 14820,
+      "following_count": 492,
+      "created_at": "2026-10-05T19:57:56.389Z"
+    },
+    "marcus": {
+      "id": "user-marcus",
+      "username": "marcus_vance",
+      "full_name": "Marcus Vance",
+      "headline": "Principal Distributed Systems Architect at NVIDIA • High-Performance Computing",
+      "bio": "Focused on scaling inter-GPU communication protocols and next-generation NVLink networks.",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=256",
+      "location": "Santa Clara, CA",
+      "industry": "Artificial Intelligence",
+      "interests": [
+        "Distributed Systems",
+        "Machine Learning",
+        "GPU Infrastructure",
+        "High-Performance Computing"
+      ],
+      "followers_count": 9801,
+      "following_count": 320,
+      "created_at": "2026-10-05T19:57:56.389Z",
+      "is_following": true
+    },
+    "sarah": {
+      "id": "user-sarah",
+      "username": "sarah_chen",
+      "full_name": "Dr. Sarah Jenkins",
+      "headline": "Head of Foundational ML Research at DeepMind • Neural Architecture Lead",
+      "bio": "Leading research on ultra-sparse mixture-of-experts and sub-quadratic attention kernels.",
+      "avatar_url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=256",
+      "location": "London, UK",
+      "industry": "Artificial Intelligence",
+      "interests": [
+        "Machine Learning",
+        "Agentic AI",
+        "Neural Architecture",
+        "Research Ethics"
+      ],
+      "followers_count": 18200,
+      "following_count": 610,
+      "created_at": "2026-10-05T19:57:56.389Z"
+    },
+    "david": {
+      "id": "user-david",
+      "username": "david_chen",
+      "full_name": "David Chen",
+      "headline": "Director of AI Infrastructure at Anthropic • Cluster Reliability & Scaling",
+      "bio": "Building resilient fault-tolerant distributed orchestration for thousands of H100 clusters.",
+      "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=256",
+      "location": "San Francisco, CA",
+      "industry": "Cloud & Infrastructure",
+      "interests": [
+        "AI Infrastructure",
+        "Kubernetes",
+        "Distributed Systems",
+        "Cloud Architecture"
+      ],
+      "followers_count": 12400,
+      "following_count": 440,
+      "created_at": "2026-10-05T19:57:56.389Z"
+    },
+    "maya": {
+      "id": "user-maya",
+      "username": "maya_lin",
+      "full_name": "Maya Lin",
+      "headline": "Staff ML Compiler Engineer at Modular • Mojo & Triton Kernel Optimization",
+      "bio": "Compiling neural graphs for custom hardware accelerators.",
+      "avatar_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=256",
+      "location": "Austin, TX",
+      "industry": "Design & UX",
+      "interests": [
+        "Design Systems",
+        "Web Development",
+        "Interface Architecture",
+        "User Experience"
+      ],
+      "followers_count": 8900,
+      "following_count": 290,
+      "created_at": "2026-10-05T19:57:56.389Z"
+    },
+    "jane": {
+      "id": "user-jane",
+      "username": "jane_doe",
+      "full_name": "Jane Doe",
+      "headline": "VP of Engineering at CloudScale",
+      "bio": "Architecting modern cloud-native web applications and high-availability distributed systems.",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=256",
+      "location": "New York, NY",
+      "industry": "Web Development",
+      "interests": [
+        "Web Development",
+        "Engineering Leadership",
+        "Distributed Systems",
+        "Full Stack Architecture"
+      ],
+      "followers_count": 11200,
+      "following_count": 512,
+      "created_at": "2026-10-07T08:30:56.036Z"
+    },
+    "chloe": {
+      "id": "user-chloe",
+      "username": "chloe_lin",
+      "full_name": "Chloe Lin",
+      "headline": "Staff ML Engineer at DeepLogic",
+      "bio": "Building large scale generative workflows and web applications.",
+      "avatar_url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=256",
+      "location": "San Jose, CA",
+      "industry": "Artificial Intelligence",
+      "interests": [
+        "Machine Learning",
+        "Web Development",
+        "Deep Learning",
+        "PyTorch"
+      ],
+      "followers_count": 4100,
+      "following_count": 220,
+      "created_at": "2026-10-07T08:30:56.036Z"
+    },
+    "aisha": {
+      "id": "user-aisha",
+      "username": "aisha_morales",
+      "full_name": "Aisha Morales",
+      "headline": "Staff AI Systems Researcher at Meta FAIR • Memory Fabrics & Latency Optimization",
+      "bio": "Pioneering asynchronous memory staging fabrics for trillion-parameter models.",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=256",
+      "location": "Menlo Park, CA",
+      "industry": "Artificial Intelligence",
+      "interests": [
+        "Distributed Systems",
+        "Memory Fabrics",
+        "AI Systems",
+        "Hardware Architecture"
+      ],
+      "followers_count": 7400,
+      "following_count": 310,
+      "created_at": "2026-10-05T19:57:56.389Z"
+    }
+  },
+  "conversations": [
+    {
+      "id": "conv-marcus",
+      "participant": {
+        "id": "user-marcus",
+        "username": "marcus_vance",
+        "full_name": "Marcus Vance",
+        "headline": "Principal Distributed Systems Architect at NVIDIA • High-Performance Computing",
+        "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=256",
+        "location": "Santa Clara, CA",
+        "followers_count": 9800,
+        "following_count": 320,
+        "created_at": "2026-10-05T19:57:56.389Z"
+      },
+      "last_message": "Test message for verification",
+      "last_message_time": "Just now",
+      "unread_count": 2,
+      "is_active": true,
+      "messages": [
+        {
+          "id": "msg-1",
+          "sender_id": "user-marcus",
+          "content": "Hey Elena, I walked through the distributed memory caching schema you pushed yesterday. The reduction in inter-node communication latency is remarkable.",
+          "created_at": "2026-10-04T10:14:00Z",
+          "time_formatted": "10:14 AM",
+          "is_current_user": false
+        },
+        {
+          "id": "msg-2",
+          "sender_id": "00000000-0000-0000-0000-000000000001",
+          "content": "Thanks Marcus! We found that pinning buffer allocations directly to NVLink fabric eliminated almost all the context-switch overhead.",
+          "created_at": "2026-10-04T10:18:00Z",
+          "time_formatted": "10:18 AM • Delivered",
+          "is_current_user": true
+        },
+        {
+          "id": "msg-3",
+          "sender_id": "user-marcus",
+          "content": "Let's review the quantization benchmarks before the presentation. Are you free around 2 PM PT?",
+          "created_at": "2026-10-04T10:22:00Z",
+          "time_formatted": "10:22 AM",
+          "is_current_user": false
+        },
+        {
+          "id": "msg-1791230289531-jisd",
+          "sender_id": "00000000-0000-0000-0000-000000000001",
+          "conversation_id": "conv-marcus",
+          "content": "Test message for verification",
+          "media_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb",
+          "media_type": "image",
+          "media_name": "spec_chart.png",
+          "media_size": "2.4 MB",
+          "bucket": "Message",
+          "created_at": "2026-10-05T19:58:09.531Z",
+          "time_formatted": "Just now • Delivered",
+          "is_current_user": true
+        }
+      ]
+    },
+    {
+      "id": "conv-sarah",
+      "participant": {
+        "id": "user-sarah",
+        "username": "sarah_chen",
+        "full_name": "Dr. Sarah Jenkins",
+        "headline": "Head of Foundational ML Research at DeepMind • Neural Architecture Lead",
+        "avatar_url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=256",
+        "location": "London, UK",
+        "followers_count": 18200,
+        "following_count": 610,
+        "created_at": "2026-10-05T19:57:56.389Z"
+      },
+      "last_message": "idd card",
+      "last_message_time": "Just now",
+      "unread_count": 0,
+      "messages": [
+        {
+          "id": "msg-sarah-1",
+          "sender_id": "user-sarah",
+          "content": "Elena, I sent over the preprint draft on sub-quadratic attention kernels. Would appreciate your eyes on the GPU benchmarks section!",
+          "created_at": "2026-10-04T09:00:00Z",
+          "time_formatted": "9:00 AM",
+          "is_current_user": false
+        },
+        {
+          "id": "msg-1791555585096-1ued",
+          "sender_id": "e5f5edc0-22e2-4b0a-9f63-8503f64bbefd",
+          "conversation_id": "conv-sarah",
+          "content": "idd card",
+          "media_url": "https://lopljazpsnykyfhdjowt.supabase.co/storage/v1/object/public/Message/chat/msg_1791555577304_j59882y.jpg",
+          "media_type": "image",
+          "media_name": "589439609_3135471116621393_664434500871301081_n (2).jpg",
+          "media_size": "0.1 MB",
+          "bucket": "Message",
+          "created_at": "2026-10-09T14:19:45.096Z",
+          "time_formatted": "Just now • Delivered",
+          "is_current_user": true
+        }
+      ]
+    },
+    {
+      "id": "conv-david",
+      "participant": {
+        "id": "user-david",
+        "username": "david_chen",
+        "full_name": "David Chen",
+        "headline": "Director of AI Infrastructure at Anthropic • Cluster Reliability & Scaling",
+        "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=256",
+        "location": "San Francisco, CA",
+        "followers_count": 12400,
+        "following_count": 440,
+        "created_at": "2026-10-05T19:57:56.389Z"
+      },
+      "last_message": "The cluster scaling issues have been resolved across us-west-2.",
+      "last_message_time": "3h",
+      "unread_count": 0,
+      "messages": [
+        {
+          "id": "msg-david-1",
+          "sender_id": "user-david",
+          "content": "The cluster scaling issues have been resolved across us-west-2. Memory allocations are now solid.",
+          "created_at": "2026-10-04T07:12:00Z",
+          "time_formatted": "7:12 AM",
+          "is_current_user": false
+        }
+      ]
+    },
+    {
+      "id": "conv-council",
+      "participant": {
+        "id": "channel-council",
+        "username": "council_channel",
+        "full_name": "Systems Engineering Council",
+        "headline": "Enterprise Architectural Working Group • 8 Members",
+        "avatar_url": "",
+        "followers_count": 8,
+        "following_count": 0,
+        "created_at": "2026-10-05T19:57:56.389Z"
+      },
+      "last_message": "K. Mercer: Spec v1.4 merged to master branch.",
+      "last_message_time": "18m",
+      "unread_count": 1,
+      "messages": [
+        {
+          "id": "msg-c-1",
+          "sender_id": "user-mercer",
+          "content": "Spec v1.4 for the distributed memory tier is now merged to master. Testing on cluster us-east-1 begins tomorrow.",
+          "created_at": "2026-10-04T08:00:00Z",
+          "time_formatted": "8:00 AM",
+          "is_current_user": false
+        },
+        {
+          "id": "msg-c-2",
+          "sender_id": "user-marcus",
+          "content": "NVLink buffer allocations tested solid across 256 nodes without telemetry regression.",
+          "created_at": "2026-10-04T08:14:00Z",
+          "time_formatted": "8:14 AM",
+          "is_current_user": false
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-follow-1791361943597",
+      "type": "follow",
+      "user_id": "user-marcus",
+      "actor": {
+        "id": "00000000-0000-0000-0000-000000000001",
+        "username": "elena_rostova",
+        "full_name": "Elena Rostova",
+        "headline": "VP of AI Systems & Architecture at MIO Labs",
+        "avatar_url": ""
+      },
+      "title": "Elena Rostova started following you.",
+      "subtitle": "VP of AI Systems & Architecture at MIO Labs",
+      "time_ago": "Just now",
+      "is_read": true,
+      "cta_type": "connect",
+      "target_tab": "profile",
+      "target_id": "elena_rostova"
+    },
+    {
+      "id": "notif-001",
+      "type": "profile_view",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "actor": {
+        "id": "user-jane",
+        "username": "jane_doe",
+        "full_name": "Jane Doe",
+        "headline": "VP of Engineering at CloudScale",
+        "avatar_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=256"
+      },
+      "title": "Jane Doe and 3 other executives viewed your profile this week.",
+      "subtitle": "VP of Engineering at CloudScale • 2nd connection",
+      "time_ago": "10m ago",
+      "is_read": true,
+      "cta_type": "analytics",
+      "target_tab": "profile",
+      "target_id": "elena_rostova"
+    },
+    {
+      "id": "notif-002",
+      "type": "mention",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "actor": {
+        "id": "user-marcus",
+        "username": "marcus_vance",
+        "full_name": "Marcus Vance",
+        "headline": "Principal Distributed Systems Architect at NVIDIA • High-Performance Computing",
+        "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=256"
+      },
+      "title": "Marcus Vance mentioned you in an architecture thread:",
+      "quote": "“@Elena Rostova outstanding architecture on that data quantization layer! We ported it over to our inference runtime.”",
+      "time_ago": "42m ago",
+      "is_read": false,
+      "cta_type": "reply",
+      "target_tab": "messaging",
+      "target_id": "marcus_vance",
+      "post_id": "post-001"
+    },
+    {
+      "id": "notif-003",
+      "type": "endorsement",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "actor": {
+        "id": "user-sarah",
+        "username": "sarah_chen",
+        "full_name": "Dr. Sarah Jenkins",
+        "headline": "Head of Foundational ML Research at DeepMind • Neural Architecture Lead",
+        "avatar_url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=256"
+      },
+      "title": "Dr. Sarah Jenkins endorsed you for 2 key expertise areas.",
+      "tags": [
+        "Distributed Systems",
+        "AI Architecture"
+      ],
+      "time_ago": "2h ago",
+      "is_read": false,
+      "cta_type": "thanks",
+      "target_tab": "messaging",
+      "target_id": "sarah_chen"
+    },
+    {
+      "id": "notif-004",
+      "type": "opportunity",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "title": "OPPORTUNITY MATCH",
+      "subtitle": "New job matching your target profile: Principal Architect — Distributed Training",
+      "job_data": {
+        "title": "Principal Architect — Distributed Training",
+        "company": "Anthropic Core Labs",
+        "location": "San Francisco, CA (Hybrid)",
+        "compensation": "$380k - $460k + Equity"
+      },
+      "time_ago": "4h ago",
+      "is_read": false,
+      "cta_type": "job",
+      "target_tab": "explore"
+    },
+    {
+      "id": "notif-005",
+      "type": "repost",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "actor": {
+        "id": "user-alex",
+        "username": "alex_rivers",
+        "full_name": "Alex Rivers",
+        "headline": "Principal Security Architect • MeshCore",
+        "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=256"
+      },
+      "title": "Alex Rivers reposted your article: “The Future of Multi-Agent Systems in Distributed Clusters”",
+      "subtitle": "142 impressions • 19 reshares",
+      "time_ago": "Yesterday",
+      "is_read": true,
+      "target_tab": "home",
+      "post_id": "post-001"
+    },
+    {
+      "id": "notif-006",
+      "type": "connect_invite",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "actor": {
+        "id": "user-chloe",
+        "username": "chloe_lin",
+        "full_name": "Chloe Lin",
+        "headline": "Staff ML Engineer at DeepLogic",
+        "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=256"
+      },
+      "title": "Chloe Lin sent you a connection invitation.",
+      "subtitle": "Staff ML Engineer @ DeepLogic • 14 mutual connections",
+      "time_ago": "2 days ago",
+      "is_read": true,
+      "cta_type": "connect",
+      "target_tab": "profile",
+      "target_id": "chloe_lin"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1791230289531-jisd",
+      "sender_id": "00000000-0000-0000-0000-000000000001",
+      "conversation_id": "conv-marcus",
+      "content": "Test message for verification",
+      "media_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb",
+      "media_type": "image",
+      "media_name": "spec_chart.png",
+      "media_size": "2.4 MB",
+      "bucket": "Message",
+      "created_at": "2026-10-05T19:58:09.531Z",
+      "time_formatted": "Just now • Delivered",
+      "is_current_user": true
+    },
+    {
+      "id": "msg-1791555585096-1ued",
+      "sender_id": "e5f5edc0-22e2-4b0a-9f63-8503f64bbefd",
+      "conversation_id": "conv-sarah",
+      "content": "idd card",
+      "media_url": "https://lopljazpsnykyfhdjowt.supabase.co/storage/v1/object/public/Message/chat/msg_1791555577304_j59882y.jpg",
+      "media_type": "image",
+      "media_name": "589439609_3135471116621393_664434500871301081_n (2).jpg",
+      "media_size": "0.1 MB",
+      "bucket": "Message",
+      "created_at": "2026-10-09T14:19:45.096Z",
+      "time_formatted": "Just now • Delivered",
+      "is_current_user": true
+    }
+  ],
+  "posts": [],
+  "saved_posts": {
+    "00000000-0000-0000-0000-000000000001": [
+      "post-1791368461889"
+    ]
+  },
+  "comments": {
+    "post-1791364204835": [
+      {
+        "id": "cmt-1791364219565-qc17",
+        "post_id": "post-1791364204835",
+        "parent_comment_id": null,
+        "user": {
+          "id": "00000000-0000-0000-0000-000000000001",
+          "username": "sojolbro",
+          "full_name": "sojol",
+          "headline": "undergrad",
+          "bio": "django engineer",
+          "avatar_url": "",
+          "location": "Dhaka",
+          "industry": "Artificial Intelligence",
+          "interests": [
+            "Distributed Systems",
+            "Machine Learning",
+            "AI Infrastructure",
+            "Web Development"
+          ],
+          "website": "https://mio.ai/research/elena",
+          "followers_count": 14820,
+          "following_count": 492,
+          "created_at": "2026-10-05T19:57:56.389Z"
+        },
+        "content": "good",
+        "created_at": "2026-10-07T09:10:19.566Z",
+        "likes_count": 0,
+        "has_liked": false,
+        "replies": [
+          {
+            "id": "cmt-1791364234485-prcm",
+            "post_id": "post-1791364204835",
+            "parent_comment_id": "cmt-1791364219565-qc17",
+            "user": {
+              "id": "00000000-0000-0000-0000-000000000001",
+              "username": "sojolbro",
+              "full_name": "sojol",
+              "headline": "undergrad",
+              "bio": "django engineer",
+              "avatar_url": "",
+              "location": "Dhaka",
+              "industry": "Artificial Intelligence",
+              "interests": [
+                "Distributed Systems",
+                "Machine Learning",
+                "AI Infrastructure",
+                "Web Development"
+              ],
+              "website": "https://mio.ai/research/elena",
+              "followers_count": 14820,
+              "following_count": 492,
+              "created_at": "2026-10-05T19:57:56.389Z"
+            },
+            "content": "@sojol hi",
+            "created_at": "2026-10-07T09:10:34.485Z",
+            "likes_count": 0,
+            "has_liked": false,
+            "replies": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Nexus Network",
+  "description": "An executive social network for AI systems architects, researchers, and engineering leaders built with React, Django REST Framework, and Supabase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
